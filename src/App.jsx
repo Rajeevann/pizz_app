@@ -3,6 +3,8 @@ import { Route, Routes, Switch } from "react-router";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
+import Footer from "./components/Footer";
+import Menu from "../src/pages/Menu";
 
 function App() {
   return (
@@ -11,7 +13,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/menu" element={<Menu />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );
