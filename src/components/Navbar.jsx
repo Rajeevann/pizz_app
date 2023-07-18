@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "../../src/assets/pizzaLogo.png";
 import { Link } from "react-router-dom";
+import "../styles/Navbar.css";
 
 const Navbar = () => {
   return (
